@@ -1,0 +1,35 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+}
+
+:root {
+  --primary-color: #00ffff;
+  --primary-font: "Roboto", sans-serif;
+}
+
+.theme-color {
+  color: var(--primary-color);
+}
+
+nav li:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.hero-intro {
+  font-size: 70px;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero-intro {
+    font-size: 36px;
+  }
+}
